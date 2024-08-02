@@ -19,7 +19,6 @@ const QuienesSomos = () => {
             <h2>Porque Literatura Ambulante...</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, accusantium incidunt quis sint eum natus quam tempore itaque dolore tenetur commodi nemo tempora cupiditate libero placeat magnam vel, architecto voluptatibus?</p>
             <button>Me gusta</button>
-            <Span>Alan Ruiz Diaz, Estudiante.</Span>
         </div>
         <div>
             <button>Continuar</button>
