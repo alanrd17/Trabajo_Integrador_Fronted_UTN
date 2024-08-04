@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ReviewItem.css'
+
 
 function ReviewItem({ review, onDelete }) {
     return (

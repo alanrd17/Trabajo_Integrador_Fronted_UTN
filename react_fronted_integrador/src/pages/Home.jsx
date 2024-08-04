@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import ReviewForm from './components/ReviewForm'
-import ReviewList from './components/ReviewList'
+
 
 function Home() {
     const [reviews, setReviews] = useState([])

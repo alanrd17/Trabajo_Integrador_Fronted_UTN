@@ -1,8 +1,7 @@
 import React from 'react'
 import ReviewItem from './ReviewItem'
-import '../styles/ReviewList.css'
 
-function ReviewList({ reviews, deleteReview }) {
+function Reviewlist({ reviews, deleteReview }) {
     return (
     <div className="review-list">
     {reviews.map((review, index) => (
@@ -15,5 +14,6 @@ function ReviewList({ reviews, deleteReview }) {
     </div>
 )
 }
+console.log ("Reviewlist")
 
-export default ReviewList
+export default Reviewlist

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import '../styles/ReviewForm.css'
 
-function ReviewForm({ addReview }) {
+function Reviewform({ addReview }) {
     const [reviewText, setReviewText] = useState('')
 
     const handleSubmit = (e) => {
@@ -24,4 +23,4 @@ function ReviewForm({ addReview }) {
 )
 }
 
-export default ReviewForm
+export default Reviewform
